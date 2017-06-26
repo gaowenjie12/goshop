@@ -20,7 +20,7 @@ class Category_model extends CI_Model {
 		}
 		return $result;
 	}
-
+ 
 	// 删除分类
 	public function delete($objectId) {
 		$category = Object::create('Category', $objectId);
